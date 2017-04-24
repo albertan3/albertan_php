@@ -13,9 +13,12 @@
         $to      = "contendera@gmail.com";
         $subject = 'confirmation email from meetingmeeting.com';
         $message = 'Welcome';
-        $headers = 'From: services@meetingmeeting.com' . "\r\n" .
-        'Reply-To: services@meetingmeeting.com' . "\r\n" .
+        $headers = 'From: services@albertahn.com' . "\r\n" .
+        'Reply-To: services@albertahn.com' . "\r\n" .
          'X-Mailer: PHP/' . phpversion();
           mail($to, $subject, $message, $headers);
           
+          echo"hi";
           echo "mail send to"+$to;
+          
+          ?>
