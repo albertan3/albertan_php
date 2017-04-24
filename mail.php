@@ -19,6 +19,6 @@
           mail($to, $subject, $message, $headers);
           
           echo"hi";
-          echo "mail send to"+$to;
+          echo "mail send to".$to;
           
           ?>
